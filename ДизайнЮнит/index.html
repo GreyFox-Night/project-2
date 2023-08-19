@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ДизайнЮнит </title>
+</head>
+
+<body>
+
+
+
+
+    <header class="header">
+        <nav class="header__nav">
+            <h3 class="nav__title"> ДизайнЮнит </h3>
+            <ul class="nav__menu">
+                <li class="menu__link"> <a class="menu__a" href="#main__title"> Главная </a> </li>
+                <li class="menu__link"> <a class="menu__a" href="#projects"> Наши проекты </a> </li>
+                <li class="menu__link"> <a class="menu__a" href="#about__company"> О нас </a> </li>
+                <li class="menu__link"> <a class="menu__a" href="#designers"> Архитекторы </a> </li>
+                <li class="menu__link"> <a class="menu__a" href="#tariff"> Тарифы </a> </li>
+                <li class="menu__link"> <a class="menu__a" href="#contact"> Контакты </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main class="main">
+
+
+        <h1 class="main__title" id="main__title"> ДизайнЮнит </h1>
+
+        <section class="projects" id="projects">
+            <h2 class="block__title"> Наши проекты </h2>
+            <hr class="line">
+            <div class="projects__gallery">
+                <img class="gallery__image" src="image/room.jpg" alt="комната первая">
+                <img class="gallery__image" src="image/room2.jpg" alt="комната вторая">
+                <img class="gallery__image__none" src="image/room3.jpg" alt="комната третья">
+                <img class="gallery__image" src="image/room4.jpg" alt="комната четвертая">
+                <img class="gallery__image__none" src="image/room5.jpg" alt="комната пятая">
+                <img class="gallery__image__none" src="image/room6.jpg" alt="комната шестая">
+            </div>
+        </section>
+
+        <section class="about-company" id="about__company">
+            <h2 class="block__title"> О нас </h2>
+            <hr class="line">
+            <p class="about-company__text"> Немного о нашей прекрасной компании: </p> 
+            <p class="about-company__text"> Мы занимаемся дизайном уютных комнат для подростков уже более 10 лет. За это
+                время мы четко поняли, что нужно детям в переходном возрасте. Мы шагаем в след с модой и с каждым годом
+                наш уровень и рейтинг повышается. Сейчас наша компания является одной из ведущих на рынке дизайна. Будем
+                рады вашим заказам и отзывам! </p>
+        </section>
+
+        <section class="designers" id="designers">
+            <h2 class="block__title"> Архитекторы </h2>
+            <hr class="line">
+            <p class="designers__text"> У нас прекрасная команда и лучшие дизайнеры-архитекторы России! Теплые отношения
+                между клиентом и дизайнером, дружеские встречи и совместные походы на архитектурные выставки. С нами вы
+                сможете не только сделать комнату, которую точно оценит ваш ребенок, но и завести хорошие связи, а
+                возможно и друзей. Присоеденяйтесь к нашей дружной семье!
+            </p>
+            <p class="designers__text"> Вот наши лучшие дизайнеры: </p>
+
+            <div class="designers__flex">
+                <div class="designers__member">
+                    <img class="member__image" src="image/lashin.jpg" alt="Сергей Лашин">
+                    <h3 class="member__name"> Сергей Лашин </h3>
+                    <p class="member__position"> Архитектор-дизайнер </p>
+                    <p class="member__text"> Сергей Лашин — архитектор-дизайнер с 17-летним опытом работы. Сергей основал студию
+                        VPROEKTE, где практикует архитектурный подход к интерьеру. </p>
+                </div>
+            
+                <div class="designers__member">
+                    <img class="member__image" src="image/natalia.jpg" alt="Наталья Преображенская">
+                    <h3 class="member__name"> Наталья Преображенская </h3>
+                    <p class="member__position"> Дизайнер </p>
+                    <p class="member__text"> Дизайнер Наталья. Оформление отражает внутренний мир хозяев, поэтому дизайнер не придерживается стилевых рамок. </p>
+                </div>
+            
+                <div class="designers__member">
+                    <img class="member__image" src="image/jdanova.jpeg" alt="Женя Жданова">
+                    <h3 class="member__name"> Женя Жданова </h3>
+                    <p class="member__position"> Дизайнер-декоратор </p>
+                    <p class="member__text"> Дизайнер-декоратор Женя Жданова. Созданные ей интерьеры — пространство, где реализованы смелые творческие эксперименты. </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="tariff" id="tariff">
+
+            <h2 class="block__title"> Тарифы </h2>
+            <hr class="line">
+            <p class="tariff__text"> Мы можем предложить Вам два тарифа - основной и продвинутый, но поверьте, качество
+            работы в обоих случаях будет на высоте и вы с ребенком останетесь в восторге! Просто, в продвинутой
+            версии немного расширенный перечень услуг. </p>
+
+            <div class="tariff__flex">
+                <ul class="tariff__price">
+                    <li class="price__name"> Основной </li>
+                    <li> Планировка комнаты </li>
+                    <li> Один день в подарок </li>
+                    <li> Про-съёмка </li>
+                    <li> Скидка на мебель 20% </li>
+                    <li> Бесплатный билет на выставку </li>
+                    <li> +- 50 000 руб/проект </li>
+                    <li> <a class="price__link__base" href=""> Купить </a> </li>
+                </ul>
+            
+                <ul class="tariff__price__pro">
+                    <li class="price__name__pro"> Продвинутый </li>
+                    <li> Планировка комнаты </li>
+                    <li> Неделя в подарок </li>
+                    <li> Про-съёмка </li>
+                    <li> Скидка на мебель 60% </li>
+                    <li> Три бесплатных билета на выставку </li>
+                    <li> +- 120 000 руб/проект </li>
+                    <li> <a class="price__link" href=""> Купить </a> </li>
+                </ul>
+            </div>
+            
+            </section>
+
+
+        <section class="contact" id="contact">
+
+            <h2 class="block__title"> Контакты </h2>
+            <hr class="line">
+            <p class="contact__text"> Напишите свое имя, e-mail и введите сообщениe. Скоро мы с вами свяжемся. </p>
+
+            <form class="contact__form">
+                <label for="name"> Имя </label>
+                <input type="text" placeholder="Введите имя" id="name">
+                <label for="email"> E-mail </label>
+                <input type="email" placeholder="Введите e-mail" id="email">
+                <label for="message"> Сообщение </label>
+                <input type="text" placeholder="Введите сообщение" id="text">
+                <input class="contact__button" type="submit" value="Oтправить">
+            </form>
+
+        </section>
+
+
+
+    </main>
+
+    <footer class="footer">
+
+        <p class="footer__text"> @Все права защищены </p>
+
+    </footer>
+
+
+
+</body>
+
+</html>

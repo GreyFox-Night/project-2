@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Century Gothic";
+}
+
+
+
+
+body{
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: rgb(196, 196, 196);
+}
+
+
+
+
+.line{
+    width: 100%;
+    border: 5px solid rgb(154, 154, 154);
+    border-radius: 6px;
+    margin: 30px 0;
+}
+
+
+
+
+
+.header{
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background-color: rgb(154, 154, 154);
+}
+
+.nav__title{
+    color: white;
+    font-size: 32px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: "MS Sans Serif";
+}
+
+.nav__menu{
+    font-size: 24px;
+    list-style-type: none;
+    padding-top: 60px;
+}
+
+.menu__link{
+    margin-bottom: 10px;
+}
+
+.menu__a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.menu__a:hover{
+    background-color: rgb(92, 92, 92);
+}
+
+
+
+
+.main{
+    width: 75%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.main__title{
+    font-size: 64px;
+    padding: 48px 0;
+    font-family: "MS Sans Serif";
+}
+
+
+
+
+.block__title{
+    font-size: 38px;
+    padding-bottom: 20px;
+    font-family: "MS Sans Serif";
+}
+
+.projects__gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.gallery__image{
+    width: 45%;
+    height: 370px;
+    position: relative;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.gallery__image__none{
+    width: 45%;
+    height: 370px;
+    position: relative;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.gallery__image:hover{
+    opacity: 1;
+    width: 50%;
+}
+
+
+
+
+.about-company__text,
+.designers__text,
+.tariff__text,
+.contact__text{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+
+
+
+.designers{
+    margin-top: 70px;
+}
+
+.designers__flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+ 
+.designers__member{
+    background-color: rgb(154, 154, 154);
+    width: 30%;
+}
+
+.member__image{
+    width: 100%;
+    opacity: 0.85;
+}
+
+.member__name,
+.member__text{
+    padding: 12px;
+}
+
+.member__position{
+    padding-left: 12px;
+    color: white;
+}
+
+
+
+
+.tariff__flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.tariff__price{
+    width: 45%;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.tariff__price__pro{
+    width: 45%;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.tariff li{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(154, 154, 154);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.tariff__price .price__name{
+    padding: 38px 0;
+    background-color: white;
+    font-size: 30px;
+}
+
+.tariff__price__pro .price__name__pro{
+    padding: 38px 0;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 30px;
+}
+
+.price__link{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 12px 163px;
+    display: inline-block;
+}
+
+.price__link:hover{
+    background-color: rgb(128, 0, 0);
+}
+
+.price__link__base{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 12px 163px;
+    display: inline-block;
+}
+
+.price__link__base:hover{
+    background-color: rgb(200, 200, 200);
+}
+
+
+
+
+.contact__form{
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+label{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+input{
+    width: 90%;
+    margin-right: 10%;
+    padding: 15px 0;
+}
+
+.contact__button{
+    padding: 16px 24px;
+    border-radius: 2px;
+    border: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.contact__button:hover{
+    background-color: rgb(169, 169, 169);
+}
+
+
+
+
+.footer{
+    padding: 15px;
+    border: 2px solid grey;
+}
+
+.footer__text{
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

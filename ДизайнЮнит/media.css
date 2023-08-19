@@ -1,0 +1,157 @@
+@media (max-width: 575px){
+
+
+
+
+    
+    .main{
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .line{
+        width: 87%;
+    }
+
+
+    
+    .header{
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+    }
+
+    .nav__title{
+        padding: 20px;
+        font-size: 28px;
+    }
+
+    .nav__menu{
+        padding-top: 10px;
+    }  
+
+
+
+    .main__title{
+        font-size: 58px;
+    }
+
+
+
+    .gallery__image{
+        width: 90%;
+        height: 50%;
+    }
+
+    .gallery__image:hover{
+        width: 90%;
+        height: 50%;
+        opacity: 0.7;
+    }
+
+    .gallery__image__none{
+        display: none;
+    }
+
+
+
+    .about-company__text,
+    .designers__text,
+    .tariff__text,
+    .contact__text{
+        width: 90%;
+        font-size: 22px;
+    }
+
+
+
+    .designers__flex{
+        flex-direction: column;
+    }
+
+    .designers__member{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+
+
+    .tariff__flex{
+        flex-direction: column;
+    }
+
+    .tariff__price,
+    .tariff__price__pro{
+        margin-bottom: 30px;
+    }
+
+    
+    
+    .tariff__price{
+        width: 90%;
+    }
+
+    .tariff__price__pro{
+        width: 90%;
+    }
+
+    .price__link,
+    .price__link__base{
+        padding: 12px 0;
+        display: inline-block;
+        width: 100%;
+    }
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
